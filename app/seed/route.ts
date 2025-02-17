@@ -115,3 +115,6 @@
 //     return Response.json({ error }, { status: 500 });
 //   }
 // }
+
+// Failproofing build procedures 
+export async function GET() { return Response.json({}); }
